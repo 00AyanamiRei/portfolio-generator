@@ -1,0 +1,219 @@
+meta:
+  site_title: "Maksym Kozlov — Junior Software Developer"
+  description: "Junior Software Developer (Python, Java/Spring Boot, C#). Desktop apps, REST services, algorithms."
+  github_repo_url: "https://github.com/00AyanamiRei/00ayanamirei.github.io"
+
+hero:
+  terminal_path: "~/maksym-kozlov"
+  status: "Open to work: Bratislava / Uzhhorod / Remote"
+  titul: "Bc."
+  name: "Maksym Kozlov"
+  role: "Junior Software Developer | Python, Java (Spring Boot), C#"
+  bio: >
+    Computer Science graduate (Bc., TUKE) with hands-on experience
+    building desktop applications, RESTful web services, and custom algorithms.
+    I design data-driven architectures tailored to the task — from embedded SQLite
+    setups to cloud-hosted MySQL/PostgreSQL instances on Microsoft Azure.
+  cv_pdf_path: "assets/resume.pdf"
+  socials:
+    github: "https://github.com/00AyanamiRei"
+    linkedin: "https://www.linkedin.com/in/maksym-kozlov-610022286/"
+    telegram: "https://t.me/TamielKasyade"
+    email: "kozlovmax27056@gmail.com"
+
+projects:
+  - title: "Japanese Dictation Trainer"
+    category: "python"
+    badge: "Solo Project"
+    image: "assets/images/japanese_trainer.png"
+    description:
+      - "Cross-platform desktop app for practicing Hiragana, Katakana, and Kanji with handwriting input."
+      - "Built a custom offline handwriting recognition engine without neural networks (point-cloud comparison, iterative shape alignment, stroke-order verification)."
+      - "Validated on synthetic datasets with an automated pipeline and headless UI tests."
+    tags: ["Python 3", "PySide6", "NumPy", "Algorithms", "Headless UI Tests"]
+    github_url: "https://github.com/00AyanamiRei/japanese_dictation_trainer"
+    demo_url: ""
+
+  - title: "English Trainer"
+    category: "python"
+    badge: "Solo Project"
+    image: "assets/images/english_trainer.png"
+    description:
+      - "Desktop language learning suite featuring a custom dictionary, 9-mode test generator (TTS audio via pyttsx3/gTTS), and non-repeating speaking practice."
+      - "Integrated LanguageTool REST API for grammar checks and local LLM support via Ollama with fallback mode."
+      - "Decoupled unit-tested business logic from GUI and offloaded network calls to QThread workers."
+    tags: ["Python 3", "PySide6", "SQLite", "REST API", "Ollama LLM", "QThread"]
+    github_url: "https://github.com/00AyanamiRei/english_trainer"
+    demo_url: ""
+
+  - title: "Concept Drift Detection (FCA)"
+    category: "python"
+    badge: "Bachelor Thesis"
+    image: ""
+    description:
+      - "Algorithmic research system for detecting statistical shifts in streaming data (concept drift)."
+      - "Implemented Formal Concept Analysis (FCA) mathematical methods to track structural changes over time."
+    tags: ["Python 3", "FCA", "Data Analysis", "Algorithms"]
+    github_url: "https://github.com/00AyanamiRei/Detection-Concept-Drift"
+    demo_url: ""
+
+  - title: "Asian Goods E-Commerce Store"
+    category: "java"
+    badge: "Web App"
+    image: ""
+    description:
+      - "Full-featured online store with product catalog, shopping cart, and order management."
+      - "Designed relational database schema and deployed both backend and database to Microsoft Azure."
+    tags: ["Java", "Spring Boot", "MySQL", "PostgreSQL", "Microsoft Azure"]
+    github_url: ""
+    demo_url: ""
+
+  - title: "Unpuzzle"
+    category: "java"
+    badge: "Fullstack"
+    image: ""
+    description:
+      - "Browser-based puzzle game built on a client-server architecture."
+      - "Developed RESTful game state logic on Spring Boot paired with an interactive Vue.js frontend."
+    tags: ["Java", "Spring Boot", "Vue.js", "REST API"]
+    github_url: ""
+    demo_url: ""
+
+  - title: "Doomscrolling & Moon Survival"
+    category: "csharp"
+    badge: "GameDev (Solo & Team)"
+    image: ""
+    description:
+      - "Doomscrolling: Narrative visual novel developed in a team using Git version control and task distribution."
+      - "Moon Survival: Solo 3D/2D action-survival game featuring combat mechanics, artifact collection, and quest progression."
+    tags: ["C#", "Unity", "Game Logic", "Team Collaboration"]
+    github_url: "https://github.com/00AyanamiRei/moon-survival"
+    demo_url: ""
+
+experience:
+  - role: "Custom Software Developer"
+    company: "Freelance"
+    period: "Feb 2021 — Present"
+    points:
+      - "Designed and delivered desktop and web applications (accounting systems, academic tools) from scratch using C# (WPF/WinForms) and Java (Spring Boot/JavaFX)."
+      - "Managed full development lifecycle: requirements analysis, SQL schema design, UI implementation, and testing."
+
+  - role: "Game Tester / QA Volunteer"
+    company: "Farewell, Lucia (Steam Release)"
+    period: "Mar 2026 - May 2026"
+    link: "https://store.steampowered.com/app/4140780/Farewell_Lucia/"
+    points:
+      - "Conducted functional and gameplay testing on pre-release Steam builds."
+      - "Documented reproducible bug reports, UI/UX issues, and narrative logic edge cases for the dev team."
+
+education:
+  - degree: "Bachelor's degree (Bc.), Informatics"
+    institution: "Technical University of Košice (TUKE)"
+    location: "Košice, Slovakia • Faculty of Electrical Engineering and Informatics"
+  - degree: "Associate Degree, Software Engineering (121)"
+    institution: "Natural Sciences and Humanities College of UzhNU (ПГФК)"
+    location: "Uzhhorod, Ukraine"
+
+skills:
+  Languages: ["Python 3", "Java", "C#", "SQL", "JavaScript"]
+  Frameworks & Libraries:
+    [
+      "Spring Boot",
+      "PySide6 (Qt)",
+      "NumPy",
+      "WPF",
+      "WinForms",
+      "Unity",
+      "Vue.js",
+      "React",
+    ]
+  Databases & Cloud: ["PostgreSQL", "MySQL", "SQLite", "H2", "Microsoft Azure"]
+  Tools & Practices:
+    [
+      "Git (GitHub/GitLab)",
+      "GitHub Actions",
+      "REST APIs",
+      "Figma",
+      "Unit & Headless UI Testing",
+    ]
+
+certificates:
+  - title: "Diploma, Bachelor's in Informatics"
+    issuer: "Technical University of Košice"
+    date: "Sep 2023 - Jun 2026"
+    image: "assets/certificates/diploma-tuke.png"
+
+  - title: "Diploma, Software Engineering (121)"
+    issuer: "UzhNU College"
+    date: "Sep 2020 - Jun 2024"
+    image: "assets/certificates/diploma-college.pdf"
+
+  - title: "Google AI Professional Certificate"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/google-ai-professional.pdf"
+    url: "https://www.coursera.org/account/accomplishments/specialization/3WC46ZOSKJ1O"
+
+  - title: "Google AI Fundamentals"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-fundamentals.pdf"
+    badge: "assets/certificates/badges/ai-fundamentals.png"
+    url: "https://www.coursera.org/account/accomplishments/records/LU059GTDL1E4"
+    badge_url: "https://www.credly.com/badges/e8f09a0f-f801-46bd-9650-c3c0f11c1851/public_url"
+
+  - title: "Google AI for Brainstorming and Planning"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-brainstorming-planning.pdf"
+    badge: "assets/certificates/badges/ai-brainstorming-planning.png"
+    url: "https://www.coursera.org/account/accomplishments/records/PCWWZPAHAGPS"
+    badge_url: "https://www.credly.com/badges/59314b20-85a2-46d0-97cd-072e81d01542/public_url"
+
+  - title: "Google AI for Research and Insights"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-research-insights.pdf"
+    badge: "assets/certificates/badges/ai-research-insights.png"
+    url: "https://www.coursera.org/account/accomplishments/records/W3O343X6ZVCU"
+    badge_url: "https://www.credly.com/badges/bdab2e19-9ee3-4f3e-84da-0815aa0de6bd/public_url"
+
+  - title: "Google AI for Writing and Communicating"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-writing-communicating.pdf"
+    badge: "assets/certificates/badges/ai-writing-communicating.png"
+    url: "https://www.coursera.org/account/accomplishments/records/XGCOO1DN99TH"
+    badge_url: "https://www.credly.com/badges/cb67c141-1d4e-4e7d-ad83-d6515ddb6c6b/public_url"
+
+  - title: "Google AI for Content Creation"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-content-creation.pdf"
+    badge: "assets/certificates/badges/ai-content-creation.png"
+    url: "https://www.coursera.org/account/accomplishments/records/DCWH9Z6B8VMW"
+    badge_url: "https://www.credly.com/badges/e7e29787-1809-4755-9dd9-6bac84a2f200/public_url"
+
+  - title: "Google AI for Data Analysis"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-data-analysis.pdf"
+    badge: "assets/certificates/badges/ai-data-analysis.png"
+    url: "https://www.coursera.org/account/accomplishments/records/N9DYSL2CU4W3"
+    badge_url: "https://www.credly.com/badges/2091b6ee-3983-4a60-845e-c8542f54d030/public_url"
+
+  - title: "Google AI for App Building"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-app-building.pdf"
+    badge: "assets/certificates/badges/ai-app-building.png"
+    url: "https://www.coursera.org/account/accomplishments/records/SRV2F5OEX4U3"
+    badge_url: "https://www.credly.com/badges/2347844e-9068-4595-bbe7-caf50422c349/public_url"
+
+  - title: "Google AI for App Deployment"
+    issuer: "Google · Coursera"
+    date: "Oct 2026 - Nov 2026"
+    image: "assets/certificates/ai-app-deployment.pdf"
+    badge: "assets/certificates/badges/ai-app-deployment.png"
+    url: "https://www.coursera.org/account/accomplishments/records/DSRD0CKCI39I"
+    badge_url: "https://www.credly.com/badges/beed0f0a-70f3-48d3-bf87-d769f4ce726b/public_url"
