@@ -1,7 +1,7 @@
 meta:
   site_title: "Maksym Kozlov — Junior Software Developer"
   description: "Junior Software Developer (Python, Java/Spring Boot, C#). Desktop apps, REST services, algorithms."
-  github_repo_url: "https://github.com/00AyanamiRei/00ayanamirei.github.io"
+  github_repo_url: "https://github.com/00AyanamiRei/portfolio-generator"
 
 hero:
   terminal_path: "~/maksym-kozlov"
